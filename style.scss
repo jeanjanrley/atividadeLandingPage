@@ -21,6 +21,10 @@
 	box-sizing: border-box;
 }
 
+img{
+	max-width: 100%;
+}
+
 section {
 	width: 100%;
 	height: auto;
@@ -115,34 +119,115 @@ section {
 			display: flex;
 			flex-direction: column;
 			padding-top: 1rem;
+			padding-bottom: 3rem;
 			gap: 1rem;
+			position: relative;
 
 			p {
 				font-size: 1rem;
 			}
 
-			.card-item {
-				.illustration-area {}
+			.cards-area {
+				display: flex;
+				flex-direction: column;
+				gap: 1rem;
+				width: 100%;
 
-				.icon-area {
+				.card-item {
 					display: flex;
+					flex-direction: column;
 					align-items: center;
 					justify-content: center;
-					width: 54px;
-					height: 54px;
-					background: #fff;
-					border-radius: 50%;
-					cursor: pointer;
+					width: 100%;
+					max-width: 18.875rem;
 
-					>img {
-						margin-bottom: -0.3rem;
+					.illustration-area {
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						background: #fff;
+						border-radius: 1.4rem 1.4rem 0 0;
+						min-height: 17.125rem;
+						max-height: 17.125rem;
+						width: 100%;
+						position: relative;
+
+						.icon-area,
+						.icon-area-showed {
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							width: 54px;
+							height: 54px;
+							background: #fff;
+							border-radius: 50%;
+							cursor: pointer;
+							position: absolute;
+							bottom: -54px;
+
+
+							>img {
+								margin-bottom: -0.3rem;
+							}
+
+							;
+						}
+
+						.icon-area-show {
+							background: #7A2B58;
+						}
 					}
 
-					;
-				}
+					.more-info-area {
+						border-radius: 0 0 1.4rem 1.4rem;
+						background: #FFCC33;
+						padding: 2.4rem;
+						padding-top: calc(54px + 1.5rem);
+						height: max-content;
 
-				.more-info-area {}
+						p {
+							color: #7A2B58;
+							font-size: 1rem;
+						}
+					}
+
+					.more-info-area-hidden {
+						border-radius: 0 0 1.4rem 1.4rem;
+						background: #7A2B58;
+						height: 40px;
+
+						p {
+							display: none;
+						}
+					}
+				}
 			}
+
+			>img {
+				position: absolute;
+				right: calc((107.73px / 2) * -1);
+				width: 107.73px;
+				bottom: -0.5rem;
+			}
+		}
+	}
+
+	&:nth-child(7) {
+		background: #353535;
+
+		.container{
+			padding: 0;
+		}
+	}
+}
+
+
+@media (min-width: 376px) {
+
+	section {
+		&:nth-child(4) {
+			background: url("./public/imagens/header-1024.png") no-repeat;
+			background-size: cover;
 		}
 	}
 }
