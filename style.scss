@@ -1,16 +1,66 @@
 :root {
-	font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 400;
 
 	color-scheme: light;
-	color: rgba(255, 255, 255, 0.87);
-	background-color: #242424;
+	color: #fff;
+	background-color: #7A2B58;
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-text-size-adjust: 100%;
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+section {
+	width: 100%;
+	height: auto;
+
+	.container {
+		max-width: 944px;
+		margin: 0 auto;
+		padding: 0 20px 0 20px;
+		height: 100%;
+	}
+
+	&:nth-child(4) {
+		// Primeira sessão
+		height: 470px;
+		background-image: url("./public/imagens/header-360.png");
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			position: relative;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			gap: 0.5rem;
+
+			img {
+				position: absolute;
+				top: 53.5px;
+				margin: 0 auto;
+				width: 138.85px;
+			}
+
+			h1 {
+				font-size: 2.2rem;
+			}
+
+			p {
+				font-size: 0.85rem;
+			}
+		}
+	}
 }
