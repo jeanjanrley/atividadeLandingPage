@@ -26,16 +26,18 @@ section {
 	height: auto;
 
 	.container {
-		max-width: 944px;
 		margin: 0 auto;
 		padding: 0 20px 0 20px;
 		height: 100%;
+		width: 100%;
+		max-width: 944px;
 	}
 
 	&:nth-child(4) {
 		// Primeira sessão
 		height: 470px;
-		background-image: url("./public/imagens/header-360.png");
+		background: url("./public/imagens/header-360.png") no-repeat;
+		background-size: cover;
 
 		.container {
 			display: flex;
@@ -60,6 +62,86 @@ section {
 
 			p {
 				font-size: 0.85rem;
+			}
+		}
+	}
+
+	&:nth-child(5) {
+		height: 661px;
+
+		.container {
+			padding-top: 4rem;
+			padding-bottom: 1rem;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			position: relative;
+			overflow: hidden;
+
+			.content-area-stroke {
+				border: 0.15rem solid #fff;
+				border-radius: 1.2rem;
+				padding: 1rem;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				gap: 2rem;
+
+				>img {
+					margin-top: calc((0.15rem + 50%) * -1);
+					width: 168.49px;
+				}
+
+				li {
+					list-style-type: none;
+				}
+			}
+
+			>img {
+				position: absolute;
+				left: calc((107.73px / 2) * -1);
+				bottom: -0.6rem;
+				width: 107.73px;
+
+			}
+		}
+	}
+
+	&:nth-child(6) {
+		background: #03B5B0;
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			padding-top: 1rem;
+			gap: 1rem;
+
+			p {
+				font-size: 1rem;
+			}
+
+			.card-item {
+				.illustration-area {}
+
+				.icon-area {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					width: 54px;
+					height: 54px;
+					background: #fff;
+					border-radius: 50%;
+					cursor: pointer;
+
+					>img {
+						margin-bottom: -0.3rem;
+					}
+
+					;
+				}
+
+				.more-info-area {}
 			}
 		}
 	}
