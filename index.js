@@ -112,4 +112,3 @@ function changeIcon({ element, color, message }) {
 redCircle.element.addEventListener("click", () => changeIcon({ ...redCircle }));
 greyCircle.element.addEventListener("click", () => changeIcon({ ...greyCircle }));
 yellowCircle.element.addEventListener("click", () => changeIcon({ ...yellowCircle }));
-
