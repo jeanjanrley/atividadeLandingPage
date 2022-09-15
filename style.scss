@@ -328,7 +328,7 @@ footer {
 		gap: 2rem;
 		padding: 3rem 1rem;
 
-		p {
+		>p {
 			color: #707070;
 			font-size: 1.2rem;
 		}
@@ -347,7 +347,7 @@ footer {
 				height: 100%;
 			}
 
-			span {
+			>span {
 				padding: 0.5rem;
 				display: flex;
 				align-items: center;
@@ -362,10 +362,11 @@ footer {
 				position: absolute;
 				margin: auto;
 
-				p {
+				>p {
 					font-size: 0.8rem;
 					text-align: center;
 					line-height: 1.2;
+					color: #000;
 				}
 			}
 		}
