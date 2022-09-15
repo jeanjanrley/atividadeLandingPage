@@ -1,6 +1,8 @@
+import iconArrowUpURL from "../public/icones/icon-arrow-up.svg";
+import iconArrowDownURL from "../public/icones/icon-arrow-down.svg";
+
 const buttons = document.querySelectorAll(".drop-down");
 const cardsMoreInfo = document.querySelectorAll("#more-info");
-
 
 // Animação dos Card's
 buttons.forEach((element, index) => {
@@ -13,11 +15,11 @@ buttons.forEach((element, index) => {
 			if (result) {
 				cardsMoreInfo[index].classList.replace("more-info-area-hidden", "more-info-area");
 				element.setAttribute("style", "background: #7A2B58");
-				element.childNodes[1].setAttribute("src", "/assets/icon-arrow-up.svg");
+				element.childNodes[1].setAttribute("src", iconArrowUpURL);
 			} else {
 				cardsMoreInfo[index].classList.replace("more-info-area", "more-info-area-hidden");
 				element.setAttribute("style", "background: #fff");
-				element.childNodes[1].setAttribute("src", "/assets/icon-arrow-down.svg");
+				element.childNodes[1].setAttribute("src", iconArrowDownURL);
 			}
 		});
 	} catch (error) {
