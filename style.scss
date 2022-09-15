@@ -192,6 +192,12 @@ footer {
 					>img {
 						width: auto;
 						max-width: 70%;
+						transition: all 0.3s ease-in-out;
+
+						&:hover {
+							transform: scale(1.1);
+						}
+
 					}
 
 					.icon-area-show,
@@ -208,6 +214,11 @@ footer {
 						bottom: -54px;
 						border: none;
 						box-shadow: none;
+						transition: all 0.2s ease-in-out;
+
+						&:hover {
+							transform: scale(1.1);
+						}
 
 
 						>img {
