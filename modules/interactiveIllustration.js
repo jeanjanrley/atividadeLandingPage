@@ -1,8 +1,22 @@
 const bigCircle = document.querySelector("#big-circle");
 const interactiveMessage = document.querySelector("#big-circle > p");
+const illustration = document.querySelector("#interactive-svg");
 
-// Animação do circulo interativo
+//// Animação do circulo interativo
 
+
+// Altera o tamanho da illustração
+window.addEventListener("resize", () => {
+	if (document.body.clientWidth >= 1365) {
+		illustration.setAttribute("width", "600.11");
+		illustration.setAttribute("height", "614.68");
+	} else {
+		illustration.setAttribute("width", "345.668");
+		illustration.setAttribute("height", "320");
+	}
+});
+
+// Referencia dos botões
 const redCircle = {
 	id: "Grupo_126544",
 	element: document.getElementById("Grupo_126544"),
@@ -31,6 +45,7 @@ const circles = [redCircle, greyCircle, yellowCircle];
 const lessIcon = document.getElementById("Caminho_187625").cloneNode(true);
 const plusIcon = document.getElementById("Caminho_187624").cloneNode(true);
 
+// função que altera o icone
 function changeIcon({ element, color, message }) {
 	try {
 		const circle = element.childNodes[1].childNodes[1]; // Refencia da do botão atual
@@ -83,6 +98,7 @@ function changeIcon({ element, color, message }) {
 	}
 }
 
+// Listeners que ouvem a interação do usuario
 redCircle.element.addEventListener("click", () => changeIcon({ ...redCircle }));
 greyCircle.element.addEventListener("click", () => changeIcon({ ...greyCircle }));
 yellowCircle.element.addEventListener("click", () => changeIcon({ ...yellowCircle }));
