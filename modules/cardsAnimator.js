@@ -1,3 +1,4 @@
+import $ from "jquery";
 import iconArrowUpURL from "../public/icones/icon-arrow-up.svg";
 import iconArrowDownURL from "../public/icones/icon-arrow-down.svg";
 
@@ -11,7 +12,9 @@ buttons.forEach((element, index) => {
 			// Veirifca se as informações estão escondidas ou exibidas
 			const result = cardsMoreInfo[index].classList.contains("more-info-area-hidden");
 
-			// Troca a classe da div more info para esconde ou mostrar e altera o estilo do botão
+			//// Troca a classe da div more info para esconder ou mostrar e altera o estilo do botão
+
+			// Se estive escondido mostra
 			if (result) {
 				cardsMoreInfo[index].classList.replace("more-info-area-hidden", "more-info-area");
 				element.setAttribute("style", "background: #7A2B58");
