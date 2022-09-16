@@ -4,7 +4,7 @@
 	Desafios em Js: Fazer os Card's a arte Ilustrativa interagir com o usuário.<br/>
 </p>
 
-<img src="dist/assets/header-1920.2203da71.png"><br/>
+<img src="./public/imagens/thumbnail.png"><br/>
 
 <h1>Diferenciais</h1>
 <ul>
