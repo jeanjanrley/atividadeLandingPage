@@ -18,7 +18,7 @@ buttons.forEach((element, index) => {
 				cardsMoreInfo[index].classList.replace("more-info-area-hidden", "more-info-area");
 				element.setAttribute("style", "background: #7A2B58");
 				element.childNodes[1].setAttribute("src", iconArrowUpURL);
-				element.childNodes[1].setAttribute("src", "Icone totalmente verde claro de uma seta para cima");
+				element.childNodes[1].setAttribute("alt", "Icone totalmente verde claro de uma seta para cima");
 			} else {
 				cardsMoreInfo[index].classList.replace("more-info-area", "more-info-area-hidden");
 				element.setAttribute("style", "background: #fff");
