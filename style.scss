@@ -69,6 +69,15 @@ footer {
 	overflow: hidden;
 }
 
+
+
+@keyframes slide-show {
+	from {
+		transform: translateY(50px);
+		opacity: 0;
+	}
+}
+
 #first-section {
 	// Primeira sessão
 	height: 38rem;
@@ -83,6 +92,7 @@ footer {
 		align-items: center;
 		justify-content: center;
 		text-align: center;
+		animation: slide-show normal 0.7s ease-in-out;
 
 		img {
 			position: absolute;
@@ -94,6 +104,11 @@ footer {
 		h1,
 		p {
 			line-height: 1.2;
+			transition: all 0.3s ease-in-out;
+
+			&:hover {
+				letter-spacing: 3px;
+			}
 		}
 
 		h1 {
@@ -108,11 +123,11 @@ footer {
 }
 
 #second-section {
-	height: 661px;
+	min-height: max-content;
 
 	.container {
-		padding-top: 4rem;
-		padding-bottom: 1rem;
+		padding-top: 7rem;
+		padding-bottom: 4rem;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -131,7 +146,7 @@ footer {
 			border: 0.15rem solid #fff;
 			border-radius: 1.2rem;
 			padding: 1rem;
-			gap: 1rem;
+			gap: 1.5rem;
 			position: relative;
 
 			>img {
@@ -155,7 +170,7 @@ footer {
 				p,
 				li {
 					list-style-type: none;
-					font-size: 1rem;
+					font-size: 1.3rem;
 				}
 
 				li::before {
@@ -631,9 +646,11 @@ footer {
 		}
 
 		section {
-			&:nth-child(1n + 5) {
-				display: none;
-			}
+			display: none;
+		}
+
+		#first-section {
+			display: flex;
 		}
 
 		footer {
