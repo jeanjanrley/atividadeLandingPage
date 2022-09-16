@@ -1,4 +1,3 @@
-import $ from "jquery";
 import iconArrowUpURL from "../public/icones/icon-arrow-up.svg";
 import iconArrowDownURL from "../public/icones/icon-arrow-down.svg";
 
