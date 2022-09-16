@@ -21,21 +21,21 @@ const redCircle = {
 	id: "Grupo_126544",
 	element: document.getElementById("Grupo_126544"),
 	color: "#FF3737",
-	message: "Texto referente ao botão que está sobre a flecha vermelha!",
+	message: "Texto referente ao botão que está sobre a flecha <strong>vermelha</strong>!",
 };
 
 const yellowCircle = {
 	id: "Grupo_126547",
 	element: document.getElementById("Grupo_126547"),
 	color: "#FFCC33",
-	message: "Este texto é referente ao botão que está sobre a flecha amarela!",
+	message: "Este texto é referente ao botão que está sobre a flecha <strong>amarela</strong>!",
 };
 
 const greyCircle = {
 	id: "Grupo_126546",
 	element: document.getElementById("Grupo_126546"),
 	color: "#707070",
-	message: "Aqui está sendo apresentado o texto do botão que está sobre a flecha cinza!",
+	message: "Aqui está sendo apresentado o texto do botão que está sobre a flecha <strong>cinza</strong>!",
 };
 
 // Array de ciruclos
