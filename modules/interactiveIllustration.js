@@ -66,17 +66,18 @@ function changeIcon({ element, color, message }) {
 			removeChilds();
 			element.append(lessIcon.cloneNode(true));
 			circle.setAttribute("fill", "#7A2B58");
+
+			// Estilização do circulo central
+			bigCircle.setAttribute("style", `background: ${color}`);
+			interactiveMessage.innerHTML = message;
+			interactiveMessage.setAttribute("style", "color: #000");
 		}
 		else {
 			removeChilds();
 			element.append(plusIcon.cloneNode(true));
 			circle.setAttribute("fill", "#03B5B0");
+			bigCircle.setAttribute("style", "display: none");
 		}
-
-		// Estilização do circulo central
-		bigCircle.setAttribute("style", `background: ${color}`);
-		interactiveMessage.innerHTML = message;
-		interactiveMessage.setAttribute("style", "color: #000");
 	} catch (error) {
 		console.log(error);
 	}
