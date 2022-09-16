@@ -10,9 +10,10 @@ $grey-color: #353535;
 	line-height: 1.5;
 	font-weight: 400;
 
-	color-scheme: light;
+	color-scheme: light dark;
 	color: #fff;
 	background-color: $pink-color;
+	background: $pink-color;
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
@@ -428,6 +429,21 @@ footer {
 
 		>img {
 			width: 240.28px;
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	#first-section {
+		.container {
+			h1 {
+				font-size: 2.4rem;
+			}
+
+			p {
+				font-size: 0.8rem;
+				letter-spacing: 1px;
+			}
 		}
 	}
 }
