@@ -15,7 +15,5 @@
 		"sass": "^1.54.9",
 		"vite": "^3.1.0"
 	},
-	"dependencies": {
-		"jquery": "^3.6.1"
-	}
+	"dependencies": {}
 }
