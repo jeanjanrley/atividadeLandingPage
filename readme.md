@@ -20,7 +20,7 @@
 </p>
 	<h2>Porque não usei GULP?</h2>
 <p>
-	Como estrou usando o Vite Vanilla para construção do projeto, não foi necessário usar o GULP aqui pois o vite faz build do projeto nativame com Es Mododules, sem necessidade do Gulp ou Webpack.
+	Como estrou usando o Vite Vanilla para construção do projeto, não foi necessário usar o GULP aqui pois o vite faz build do projeto nativame com Es Modules, sem necessidade do Gulp ou Webpack.
 </p>
 
 <h2>Porque usei SASS</h2>
