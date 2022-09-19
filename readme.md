@@ -1,7 +1,7 @@
 <h1>Atividade - Jean Janrley</h1>
 <p>
 	Objetivo: criar uma landing page responsiva, que foi passada via e-mail pela empresa.<br/>
-	Desafios em Js: Fazer os Card's a arte Ilustrativa interagir com o usuário.<br/>
+	Desafios em Js: Fazer os Card's e a arte Ilustrativa interagir com o usuário.<br/>
 </p>
 
 <img src="./public/imagens/thumbnail.png"><br/>
@@ -16,7 +16,7 @@
 
 <h1>Sobre as escolhas das tecnologias</h1>
 <p>
-	Busquei desenvolver o meu projeto sob as recomendações da empresa, baseado nas tecnologias que a empresa considera como diferenciais.
+	Busquei desenvolver o projeto sob recomendações da empresa, baseado nas tecnologias que foram consideradas como diferenciais.
 </p>
 	<h2>Porque não usei GULP</h2>
 <p>
@@ -25,12 +25,12 @@
 
 <h2>Porque usei SASS</h2>
 <p>
-	Como a empresa permitiu o uso dessa tecnologia e considerou como um diferencial, optei por desenvolver os estilos da página com ela, pois já tenho experiência com e a mesma, além da sua facilidade como seletores CSS, sua sintaxe mais atraente e etc.
+	Como a empresa permitiu o uso dessa tecnologia e considerou como um diferencial, optei por desenvolver os estilos da página com ela, pois já tenho experiência com e a mesma, além de suas facilidades como seletores CSS, sua sintaxe mais atraente e etc.
 </p>
 
 <h1>O que achei sobre o projeto</h1>
 <p>
-	Achei muito gratificante ter chegado a esta etapa do processo, através deste projeto eu desenvolvi ainda mais as minhas habilidades, apliquei melhor alguns conceitos de responsividade e estruturei o meu código da melhor forma.
+	Achei muito gratificante ter chegado até esta etapa do processo, através deste projeto eu desenvolvi ainda mais as minhas habilidades, apliquei melhor alguns conceitos de responsividade e estruturei meu código da melhor forma.
 </p>
 
 <h1>Link do projeto em produção</h1>
