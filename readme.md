@@ -1,10 +1,10 @@
 <h1>Atividade - Jean Janrley</h1>
+<img src="./public/imagens/thumbnail.png"><br/>
 <p>
 	Objetivo: criar uma landing page responsiva, que foi passada via e-mail pela empresa.<br/>
 	Desafios em Js: Fazer os Card's e a arte Ilustrativa interagir com o usuário.<br/>
 </p>
 
-<img src="./public/imagens/thumbnail.png"><br/>
 
 <h1>Diferenciais</h1>
 <ul>
