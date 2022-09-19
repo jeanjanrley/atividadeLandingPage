@@ -43,7 +43,7 @@
 <p>
 	Após clonar o projeto, entre no repositório, abra o terminal e escreva
 
-	"npm install" ou "yarn start"
+	"npm install" ou "yarn"
 </p>
 
 <p>
