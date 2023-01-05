@@ -67,3 +67,6 @@
 
 	yarn preview
 </p>
+
+<h1>screenshots</h1>
+<img src="./public/imagens/screenshot.png">
